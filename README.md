@@ -2,6 +2,7 @@ AirBnB Clone
 A simple command line interpreter to be used to add, modify, or delete information in the AirBnB Clone database.
 
 Project Notes
+
 Directories and Files
 Directories
 models: holds the modules and methods to be used with console.py
@@ -18,6 +19,8 @@ State: models/state.py
 User: models/user.py
 FileStorage: models/engine/file_storage.py
 engine.init: models/engine/__init__.py
+
+
 Files: Test Files
 test_console.py: tests/
 test_amenity.py: tests/test_models/
