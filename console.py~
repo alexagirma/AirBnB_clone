@@ -1,0 +1,14 @@
+
+                del storage.all()[k]
+                storage.save()
+                return
+        print("** no instance found **")
+
+    def emptyline(self):
+        'emptyline method - does nothing'
+        pass
+
+if __name__ == '__main__':
+    HBNBCommand().cmdloop()
+
+
